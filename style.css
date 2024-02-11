@@ -1,0 +1,820 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.page {
+	width: 100%;
+	height: 775px;
+}
+
+#page1 {
+	position: absolute;
+	top: 0px;
+	background-image: url(bg-pic1.jpg);
+	background-size: 120% 160%;
+	background-position: 30% 75%;
+}
+
+#page1-text1 {
+	text-align: center;
+	margin-top: 140px;
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 35px;
+}
+
+#page1-text2 {
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 45px;
+}
+
+#page1-text3 {
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 45px;
+}
+
+
+#page2 {
+	position: absolute;
+	top: 775px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#Yuna {
+	height: 610px;
+	width: auto;
+	position: absolute;
+	left: -70px;
+	bottom: -10px;
+	opacity: 0.6;
+	z-index: 2;
+}
+
+#Prince {
+	height: 610px;
+	width: auto;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	z-index: 2;
+}
+	#rectangle {
+	margin-top: 35px;
+	display: inline-block;
+	width: 800px;
+	height: 200px;
+	outline: 10px solid #eac670;
+}
+
+#page2-text4 {
+	font-family: 'Alex Brush', cursive;
+	text-align: center;
+	margin-top: -190px;
+	color: #eac670;
+	font-size: 130px;
+	text-shadow: 2px 2px 5px black;
+}
+
+#page2-text5 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	margin-top: -175px;
+	color: #eac670;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px black;
+}
+
+#tiles {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+#discoball {
+	position: absolute;
+	bottom: -180px;
+	left: 324px;
+	opacity: 0.5;
+	transform: rotate(45deg);
+	height: 700px;
+	width: auto;
+}
+
+#page2-text6 {
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	left: 325px;
+	text-align: center;
+	font-family: 'Audiowide', sans-serif;
+	color: #eac670;
+	font-size: 100px;
+	line-height: 1.5;
+}
+
+#page2-text7 {
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	left: 320px;
+	text-align: center;
+	font-family: 'Audiowide', sans-serif;
+	color: #14f3ee;
+	font-size: 100px;
+	text-shadow: 2px 2px 5px black;
+	line-height: 1.5;
+}
+
+#page2-text8 {
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	left: 330px;
+	text-align: center;
+	font-family: 'Audiowide', sans-serif;
+	color: #f20ff0;
+	font-size: 100px;
+	text-shadow: 2px 2px 5px black;
+	line-height: 1.5;
+}
+
+#page2-text9 {
+	position: absolute;
+	z-index: 2;
+	bottom: -25px;
+	left: 330px;
+	text-align: center;
+	font-family: 'Protest Riot', sans-serif;
+	color: #eac670;
+	font-size: 100px;
+	text-shadow: 2px 2px 5px black;
+	letter-spacing: 16px;
+}
+
+#particles1 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 270px;
+	height: 175px;
+	filter: brightness(150%);
+}
+
+#particles2 {
+	position: absolute;
+	right: 0;
+	top: 100px;
+	width: 270px;
+	height: 175px;
+	filter: brightness(150%);
+}
+
+#particles3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 270px;
+	height: 175px;
+	filter: brightness(150%);
+	transform: scaleX(-1);
+}
+
+#particles4 {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 270px;
+	height: 175px;
+	filter: brightness(150%);
+	transform: scaleX(-1);
+}
+
+#sparkle1 {
+	position: absolute;
+	left: 208px;
+	top: 175px;
+	width: 125px;
+	height: 125px;
+	filter: brightness (150%);
+}
+
+#sparkle2 {
+	position: absolute;
+	left: 405px;
+	top: 28px;
+	width: 125px;
+	height: 125px;
+	filter: brightness (150%);
+}
+
+#sparkle3 {
+	position: absolute;
+	left: 755px;
+	top: 40px;
+	width: 125px;
+	height: 125px;
+	filter: brightness (150%);
+}
+
+#sparkle4 {
+	position: absolute;
+	left: 900px;
+	top: 60px;
+	width: 125px;
+	height: 125px;
+	filter: brightness (150%);
+}
+
+#sparkle5 {
+	position: absolute;
+	left: 1020px;
+	top: -30px;
+	width: 125px;
+	height: 125px;
+	filter: brightness (150%);
+}
+
+#dress {
+	position: absolute;
+	left: 265px;
+	top: 40px;
+	width: 150px;
+	height: auto;
+}
+
+#suit {
+	position: absolute;
+	right: 275px;
+	top: 50px;
+	width: 110px;
+	height: 175px;
+}
+
+#page3 {
+	position: absolute;
+	top: 1550px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#polaroid1 {
+	position: absolute;
+	left: 20px;
+	top: 30px;
+	width: 590px;
+	height: 340px;
+	background-color: #e4e4e4;
+}
+
+#page3-picture1 {
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	width: 550px;
+	height: auto;
+	border-radius: 25px;
+}
+
+#heart1 {
+	position: absolute;
+	top: 322px;
+	left: 50px;
+	width: 50px;
+	height: auto;
+}
+	
+#polaroid3 {
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+	width: 590px;
+	height: 340px;
+	background-color: #e4e4e4;
+}
+
+#page3-picture3 {
+	position: absolute;
+	left: 40px;
+	bottom: 85px;
+	width: 550px;
+	height: auto;
+	border-radius: 25px;
+}
+
+#heart2 {
+	position: absolute;
+	bottom: 38px;
+	left: 50px;
+	width: 50px;
+	height: auto;
+}
+
+#polaroid4 {
+	position: absolute;
+	right: 380px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 320px;
+	height: 350px;
+	background-color: #e4e4e4;
+}
+
+#page3-picture4 {
+	position: absolute;
+	right: 390px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 300px;
+	height: 330px;
+	border-radius: 25px;
+}
+
+#polaroid2 {
+	position: absolute;
+	right: 40px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 320px;
+	height: 350px;
+	background-color: #e4e4e4;
+}
+
+#page3-picture2 {
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 300px;
+	height: 330px;
+	border-radius: 25px;
+}
+
+.page3-texts {
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 30px;
+}
+
+#page3-text10 {
+	margin-left: 125px;
+	margin-top: 20px;
+}
+
+#page3-text11 {
+	margin-left: 500px;
+	margin-top: 25px;
+}
+
+#page3-text12 {
+	margin-left: 875px;
+	margin-top: 30px;
+}
+
+#page3-text13 {
+	margin-left: 125px;
+	margin-top: 385px;
+}
+
+#page3-text14 {
+	margin-left: 600px;
+	margin-top: -20px;
+	}
+
+#page3-text15 {
+	margin-left: 1000px;
+	margin-top: 0px;
+}
+
+#page4 {
+	position: absolute;
+	top: 2325px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+	z-index: -2;
+}
+
+#page4-text16 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -20px);
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 50px;
+}
+
+#details1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -70px);
+	filter: brightness(150%);
+	z-index: -1;
+}
+
+#boy-dancing {
+	position: absolute;
+	bottom: 50px;
+	left: 25px;
+	height: 250px;
+	width: auto;
+}
+
+#girl-dancing {
+	position: absolute;
+	bottom: 50px;
+	right: 130px;
+	height: 250px;
+	width: auto;
+	}
+
+#sparkle6 {
+	position: absolute;
+	bottom: 140px;
+	left: 60px;
+	height: 80px;
+	width: auto;
+}
+
+#sparkle7 {
+	position: absolute;
+	bottom: 150px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	height: 80px;
+	width: auto;
+}
+
+#sparkle8 {
+	position: absolute;
+	bottom: 145px;
+	right: 100px;
+	height: 80px;
+	width: auto;
+}
+
+.video {
+	height: 400px;
+	width: auto;
+}
+
+#video1 {
+	position: absolute;
+	top: 50px;
+	left: 60px;
+}
+
+#video2 {
+	position: absolute;
+	top: 250px;
+	left: 375px;
+}
+
+#video3 {
+	position: absolute;
+	top: 250px;
+	left: 750px;
+}
+
+#video4 {
+	position: absolute;
+	top: 50px;
+	right: 60px;
+}
+
+#page5 {
+	position: absolute;
+	top: 3100px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#page5-rectangular-frame1 {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	height: 680px;
+	width: 435px;
+	border: 5px solid;
+	border-image: linear-gradient(to top right, #ffd700, #ffffb5);
+	border-image-slice: 1;
+}
+
+#page5-rectangular-frame2 {
+	position: absolute;
+	top: 35px;
+	left: 33px;
+	height: 697px;
+	width: 455px;
+	border: 2px solid;
+	border-image: linear-gradient(to bottom left, #ffd700, #ffffb5);
+	border-image-slice: 1;
+}
+
+.royal-video {
+	height: 650px;
+	width: auto;
+	position: absolute;
+	top: 60px;
+	left: 75px;
+	}
+
+#page5-picture5 {
+	height: 260px;
+	width: auto;
+	position: absolute;
+	top: 45px;
+	left: 525px;
+}
+
+#page5-picture6 {
+	position: absolute;
+	top: 320px;
+	left: 525px;
+	height: 400px;
+	width: auto;
+}
+
+.crown {
+	position: absolute;
+	top: 240px;
+	right: 170px;
+	height: 200px;
+	width: auto;
+}
+
+.gradient-circle {
+	position: absolute;
+	top: 180px;
+	right: 115px;
+	height: 400px;
+	width: auto;
+}
+
+#page5-text17 {
+	position: absolute;
+	top: 300px;
+	right: 217px;
+	color: #f4cc74;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 100px;
+	text-shadow: 2px 2px 4px black;
+}
+
+.outline1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 250px;
+	width: 250px;
+}
+
+.outline2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 250px;
+	width: 250px;
+	transform: rotate(90deg);
+}
+
+.leaves1 {
+	position: absolute;
+	top: 125px;
+	right: 110px;
+	height: 250px;
+	width: auto;
+	transform: rotate(150deg) scaleY(-1);
+}
+
+.leaves2 {
+	position: absolute;
+	bottom: 125px;
+	right: 400px;
+	height: 250px;
+	width: auto;
+	transform: rotate(-40deg);
+}
+
+.squares1 {
+	position: absolute;
+	top: 70px;
+	right: 275px;
+	height: 225px;
+	width: auto;
+}
+
+.squares2 {
+	position: absolute;
+	bottom: 70px;
+	right: 85px;
+	height: 225px;
+	width: auto;
+}
+
+#page6 {
+	position: absolute;
+	top: 3875px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#page6-text18 {
+	position: absolute;
+	top: 325px;
+	right: 240px;
+	color: #f4cc74;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 100px;
+	text-shadow: 2px 2px 4px black;
+}
+
+#page6-picture8 {
+	height: 360px;
+	width: auto;
+	position: absolute;
+	top: 80px;
+	left: 510px;
+}
+
+#page6-picture7 {
+	height: auto;
+	width: 300px;
+	position: absolute;
+	bottom: 80px;
+	left: 510px;
+}
+
+#page7 {
+	position: absolute;
+	top: 4640px;
+	background-image: url(bg-pic2.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	z-index: -2;
+}
+
+#page7-text19 {
+	text-align: center;
+	font-family: serif;
+	font-size: 100px;
+	margin-top: 50px;
+	color: white;
+	letter-spacing: 25px;
+}
+
+#Julia-A {
+	position: absolute;
+	top: 175px;
+	left: 2%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+#Marc {
+	position: absolute;
+	top: 175px;
+	left: 18%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+#Louis {
+	position: absolute;
+	top: 175px;
+	left: 34%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+#Herza {
+	position: absolute;
+	top: 175px;
+	right: 34%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+#Julia-D {
+	position: absolute;
+	top: 175px;
+	right: 18%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+#Venan-Euri {
+	position: absolute;
+	top: 175px;
+	right: 2%;
+	width: 185px;
+	height: 275px;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #ffd700, #f7eaa1);
+	border-image-slice: 1;
+}
+
+.members-text {
+	font-family: serif;
+	font-size: 40px;
+	color: white;
+}
+
+#Almazan {
+	position: absolute;
+	top: 435px;
+	left: 2%;
+}
+
+#Amurao {
+	position: absolute;
+	top: 435px;
+	left: 18.5%;
+}
+
+#Barrinuevo {
+	position: absolute;
+	top: 435px;
+	left: 32.5%;
+	letter-spacing: -4px;
+}
+
+#Callanta {
+	position: absolute;
+	top: 435px;
+	right: 34%;
+	letter-spacing: -2px;
+}
+
+#Del-Rosario {
+	position: absolute;
+	top: 440px;
+	right: 18.5%;
+	line-height: 35px;
+}
+
+#Mendoza-Pinto {
+	position: absolute;
+	top: 440px;
+	right: 1%;
+	letter-spacing: -2px;
+	line-height: 35px;
+}
+
+#design {
+	display: inline-block;
+	margin-top: 290px;
+	height: 150px;
+	width: auto;
+	transform: scaleY(-1);
+}
+
+#flowers {
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
+	height: 325px;
+	width: auto;
+	transform: scaleX(-1);
+}
+
+#dust {
+	position: absolute;
+	bottom: 0;
+	left: -50px;
+	height: 700px;
+	width: auto;
+	z-index: -1;
+}
